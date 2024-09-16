@@ -7,3 +7,15 @@ st.write(
 st.write("My name is Zachary")
 
 st.button("Press me!")
+
+st.checkbox("Check me")
+
+students = ["Felicity", "Elsie", "Emory", "Elizabeth", "Kathryn"]
+
+st.write("Yo")
+
+st.write(students)
+
+student = st.selectbox("Who is the best student?", students)
+
+st.write(student)
